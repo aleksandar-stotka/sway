@@ -1,9 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const CartColumns = () => {
-  return <h4>cart columns</h4>
-}
+  return <h4>cart columns</h4>;
+};
 
 const Wrapper = styled.div`
   display: none;
@@ -29,6 +29,6 @@ const Wrapper = styled.div`
       margin-bottom: 3rem;
     }
   }
-`
+`;
 
-export default CartColumns
+export default CartColumns;

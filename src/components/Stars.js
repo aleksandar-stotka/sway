@@ -1,9 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
-import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs'
+import React from "react";
+import styled from "styled-components";
+import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 const Stars = () => {
-  return <h4>stars</h4>
-}
+  return <h4>stars</h4>;
+};
 
 const Wrapper = styled.div`
   display: flex;
@@ -18,5 +18,5 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   margin-bottom: 0.5rem;
-`
-export default Stars
+`;
+export default Stars;
