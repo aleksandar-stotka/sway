@@ -24,6 +24,8 @@ const SingleProductPage = () => {
     single_product: product,
     fetchSingleProduct,
   } = useProductsContext();
+
+  /////////////////////////////////
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`);
   }, [id]);
@@ -52,6 +54,7 @@ const SingleProductPage = () => {
     company,
     images,
   } = product;
+  //////////////////////////////////
   return (
     <Wrapper>
       <PageHero title={name} product />
@@ -60,7 +63,7 @@ const SingleProductPage = () => {
           back to products
         </Link>
         <div className="products-center">
-          <ProductImages />
+          <ProductImages images={images} />
           <section className="content">
             <h2>{name}</h2>
             <Stars />
