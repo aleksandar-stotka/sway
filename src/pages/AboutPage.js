@@ -15,16 +15,20 @@ const AboutPage = () => {
             <div className="underline"></div>
           </div>
           <p>
-            leorem i spiur ksks ametkkaa, ajsjjeueuucnncnc. Oskskkskkxk amen
-            aalslldls.Aleksandar Angelevski is the best boy in the garden, and
-            alpply for web desinger ite not to havy that but aleksandar is very
-            lasy. And i dont forgot to tell about Aleksandar, its to much goof
-            boy but i hope in the future will be fine leorem i spiur ksks
-            ametkkaa, ajsjjeueuucnncnc. Oskskkskkxk amen aalslldls.Aleksandar
-            Angelevski is the best boy in the garden, and alpply for web
-            desinger ite not to havy that but aleksandar is very lasy. And i
-            dont forgot to tell about Aleksandar, its to much goof boy but i
-            hope in the future will be fine
+            Comfort sway was founded in the late 80s to explore the expressive
+            possibilities of contemporary furnishing. This family-run business
+            works both as a retailer (we have an amazing physical store near the
+            Venetian old town of Chania and a dynamic on-line store) and as a
+            manufacturer (with a family owned factory in Indonesia). Since early
+            2010s, Comfort sway started working with internationally acclaimed
+            designers in order to create bespoke furniture collections. We are
+            at our best when dealing with special projects such as design
+            furniture for hotels, villas and restaurants, and we provide all our
+            clients with personalized service and tailor made solutions. Infused
+            with a sophisticated soul and the spirit of inovation, using only
+            the highest quality materials and meticulous work performed by
+            experienced workers, Zaira delivers collections of high quality and
+            indisputable beauty. Our furniture are “made for life”.
           </p>
         </article>
       </Wrapper>
