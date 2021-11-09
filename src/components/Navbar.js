@@ -15,7 +15,10 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src="https://images-platform.99static.com//2TTv4oEnuZisNLo8JT2XQlnkwe0=/144x133:846x835/fit-in/500x500/99designs-contests-attachments/123/123457/attachment_123457473" alt="comfy sloth" />
+            <img
+              src="https://images-platform.99static.com//2TTv4oEnuZisNLo8JT2XQlnkwe0=/144x133:846x835/fit-in/500x500/99designs-contests-attachments/123/123457/attachment_123457473"
+              alt="comfy sloth"
+            />
           </Link>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars></FaBars>
@@ -53,8 +56,9 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
+      width: 150px;
       margin-left: -15px;
+      height: 120px;
     }
   }
   .nav-toggle {
