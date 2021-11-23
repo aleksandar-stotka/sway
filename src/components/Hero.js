@@ -13,9 +13,9 @@ const Hero = () => {
           comfort zone
         </h1>
         <p>
-          Why is beutifull to create wb site because its no problem to you to
-          stay on morning and work on page but keep and mined that its no to
-          easy but dont wprry if you mass something
+          Some people search for beautiful places, others make places beautiful.
+          For more than 20 years, we manufacture high quality and stylish chairs
+          for every ocassion.
         </p>
         <Link className="btn hero-btn" to="/products">
           Shop now
