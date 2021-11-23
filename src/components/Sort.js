@@ -29,7 +29,8 @@ const Sort = () => {
   </Wrapper>
 }
 
-const Wrapper = styled.section`
+const Wrapper = styled.section`++
+
   display: grid;
   grid-template-columns: auto auto 1fr auto;
   align-items: center;

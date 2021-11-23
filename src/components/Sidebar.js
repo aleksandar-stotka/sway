@@ -17,7 +17,11 @@ const Sidebar = () => {
         className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}
       >
         <div className="sidebar-header">
-          <img src={logo} className="logo" alt="comfy sloth" />
+          <img
+            src="https://images-platform.99static.com//2TTv4oEnuZisNLo8JT2XQlnkwe0=/144x133:846x835/fit-in/500x500/99designs-contests-attachments/123/123457/attachment_123457473"
+            className="logo"
+            alt="comfy sloth"
+          />
           <button type="button" className="close-btn" onClick={closeSidebar}>
             <FaTimes />
           </button>
@@ -67,7 +71,8 @@ const SidebarContainer = styled.div`
   }
   .logo {
     justify-self: center;
-    height: 45px;
+    height: 100px;
+    width: 100px;
   }
   .links {
     margin-bottom: 2rem;
