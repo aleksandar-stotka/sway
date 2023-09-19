@@ -8,8 +8,7 @@ const Contact = () => {
         <h3>Join our newsletter and get 20% off</h3>
         <div className="content">
           <p>
-            This is services page i you e=want yo get some experience on ass pls
-            tell us about
+            This is services page i you want yo get some experience 
           </p>
         </div>
         <form
