@@ -15,7 +15,7 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img
+            <img style={{height:"200px", width:"200px"}}
               src="https://images-platform.99static.com//2TTv4oEnuZisNLo8JT2XQlnkwe0=/144x133:846x835/fit-in/500x500/99designs-contests-attachments/123/123457/attachment_123457473"
               alt="comfy sloth"
             />
