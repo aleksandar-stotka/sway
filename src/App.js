@@ -9,7 +9,7 @@ import {
   About,
   Error,
   Products,
-  PrivateRoute,
+  
 } from "./pages";
 
 function App() {
