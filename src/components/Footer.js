@@ -3,10 +3,13 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <Wrapper>
+       <span>Web created by Aleksandar Angelevski</span>
       <h5>
         &copy; {new Date().getFullYear()}
-        <span> comfort Sway</span>
+       
+        
       </h5>
+      <span> comfort Sway</span>
       <h5>All rights reserved</h5>
     </Wrapper>
   );
@@ -22,6 +25,7 @@ const Wrapper = styled.footer`
   text-align: center;
   span {
     color: var(--clr-primary-5);
+  
   }
   h5 {
     color: var(--clr-white);

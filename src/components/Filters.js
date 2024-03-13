@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useFilterContext } from "../context/filter_context";
 import { getUniqueValues, formatPrice } from "../utils/helpers";
 import { FaCheck } from "react-icons/fa";
-
+//////////
 const Filters = () => {
   const {
     filters: {
@@ -20,6 +20,7 @@ const Filters = () => {
     clearFilters,
     all_products,
   } = useFilterContext();
+  //////////////////////////////////////
   const categories = getUniqueValues(all_products, "category");
   const companies = getUniqueValues(all_products, "company");
   const colors = getUniqueValues(all_products, "colors");
