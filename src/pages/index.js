@@ -8,4 +8,4 @@ import Checkout from "./CheckoutPage";
 
 export { Home, Products, SingleProduct, About, Cart, Error, Checkout, };
 
-//noe we navigate to app.js postaviv comp
+//now we navigate to app.js postaviv comp
