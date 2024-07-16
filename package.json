@@ -47,6 +47,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "netlify-cli": "^17.17.0"
-  }
+  },
+  "proxy": "https://course-api.com/react-store-products"
 }
